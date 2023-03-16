@@ -11,11 +11,11 @@ Prior to running the Jupyter notebook, you need to curate and process databases 
 
 #### The notebook also requires the following libraries:
 
-RDKit
-Scikit-learn
-Numpy
-Pandas
-Matplotlib
+* RDKit
+* Scikit-learn
+* Numpy
+* Pandas
+* Matplotlib
 
 ### Usage
 You can run the Jupyter notebook to obtain constellation plots. The tsneFP function in the notebook is used to compute fingerprints for a library of molecules and apply t-SNE for dimensionality reduction. The function takes a pandas dataframe, a string matching the column name where the IDs of compounds is saved, a fingerprint type ("Morgan" or "MACCS"), perplexity and n_iter parameters for the t-SNE function, and a minimum size for the analog series to consider.
